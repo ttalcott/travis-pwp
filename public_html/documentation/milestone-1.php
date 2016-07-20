@@ -42,9 +42,10 @@
 		</ul>
 		<h3>Use Case:</h3>
 		<ul>
-			<li></li>
-			<li></li>
-			<li></li>
+			<li>As a future client I want to see how capable the development company I am looking at hiring is by viewing their website.</li>
+			<li>As a future client I want to be able to access the development company's website on my mobile device and have a good user experience when doing so.</li>
+			<li>As a future client I want to be able to contact the development company through their website.</li>
+			<li>As a future client I would like to be able to request a quote through the development company's website.</li>
 		</ul>
 	</body>
 </html>
