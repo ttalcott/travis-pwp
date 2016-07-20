@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
 		<meta charset="utf-8" />
 		<title>
@@ -22,6 +22,12 @@
 		<div class="paragraphs">
 			<p>
 				The people who will be viewing y site will be future clients, customers, and hopefully fellow developers. I hope my company will grow to a size where future employees will also look at the website to see who they will be working with.
+			</p>
+		</div>
+		<h3>Goals:</h3>
+		<div class="paragraphs">
+			<p>
+				My goals for my personal website are to attract future clients and to showcase my abilities as a web developer.
 			</p>
 		</div>
 	</body>
