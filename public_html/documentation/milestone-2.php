@@ -51,6 +51,19 @@
 			<div>
 				<img src="images/mobile4.png" alt="Mobile 4"/>
 			</div>
+			<h3>Desktop:</h3>
+			<div>
+				<img src="images/desktop1.png" alt="Desktop 1" />
+			</div>
+			<div>
+				<img src="images/desktop2.png" alt="Desktop 2" />
+			</div>
+			<div>
+				<img src="images/desktop3.png" alt="Desktop 3" />
+			</div>
+			<div>
+				<img src="images/desktop4.png" alt="Desktop 4" />
+			</div>
 		</div>
 	</body>
 </html>
