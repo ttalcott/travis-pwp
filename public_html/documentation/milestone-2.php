@@ -38,6 +38,19 @@
 		</div>
 		<div class="frames">
 			<h2>Wire Frames:</h2>
+			<h3>Mobile:</h3>
+			<div>
+				<img src="images/mobile1.png" alt="Mobile 1"/>
+			</div>
+			<div>
+				<img src="images/mobile2.png" alt="Mobile 2"/>
+			</div>
+			<div>
+				<img src="images/mobile3.png" alt="Mobile 3"/>
+			</div>
+			<div>
+				<img src="images/mobile4.png" alt="Mobile 4"/>
+			</div>
 		</div>
 	</body>
 </html>
