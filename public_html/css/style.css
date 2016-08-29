@@ -1,0 +1,9 @@
+html {
+	position: flex;
+
+}
+
+.home-page {
+	background: url("../images/galaxy-background.jpg") no-repeat;
+	background-attachment: fixed;
+}
