@@ -23,12 +23,23 @@ body {
 }
 
 nav.navbar {
+	margin-bottom: 10rem;
+	border: none;
 	background-color: transparent;
 	padding: 5rem;
 	-webkit-transition: all 1s ease;
+
 }
 
-.home .jumbotron {
+.catchy {
+	margin: 2rem 0;
+	padding: 5rem;
 	background-color: black;
-	margin: 10rem 0;
+	height: auto;
+	border-radius: 2rem;
+	text-align: center;
+}
+
+.catchy-text {
+	color: white;
 }

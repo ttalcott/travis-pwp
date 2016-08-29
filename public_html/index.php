@@ -13,13 +13,19 @@ require_once("php/partials/head-utils.php");
 
 		<?php require_once("php/partials/header.php"); ?>
 
-		<section class="home">
-			<div class="container">
-				<div class="jumbotron text-center">
 
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 col-md-offset-3">
+						<div class="catchy">
+							<p class="catchy-text">
+								Sample Text
+							</p>
+						</div>
+					</div>
 				</div>
 			</div>
-		</section>
+
 
 		</div>
 	</div>
