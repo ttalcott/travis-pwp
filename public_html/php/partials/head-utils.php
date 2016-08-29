@@ -31,7 +31,10 @@ $PREFIX = str_repeat("../", $DEPTH_DIFFERENCE);
 		<!-- Google Fonts -->
 		<link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
 
-		<!-- Our Custom CSS -->
+		<!-- animate.css -->
+		<link rel="stylesheet" href="css/animate.css" type="text/css">
+
+		<!--Custom CSS -->
 		<link rel="stylesheet" href="css/style.css" type="text/css">
 
 		<!-- jQuery (required for Bootstap's JS plugins) -->

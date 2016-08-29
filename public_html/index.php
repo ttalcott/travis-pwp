@@ -17,10 +17,8 @@ require_once("php/partials/head-utils.php");
 			<div class="container">
 				<div class="row">
 					<div class="col-md-6 col-md-offset-3">
-						<div class="catchy">
-							<p class="catchy-text">
-								Sample Text
-							</p>
+						<div class="catchy" id="">
+							<img src="images/lyra-logo.svg" alt="Lyra Logo" />
 						</div>
 					</div>
 				</div>
