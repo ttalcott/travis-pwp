@@ -1,5 +1,5 @@
 <header>
-	<nav class="navbar navbar-fixed-top">
+	<nav class="navbar navbar-default navbar-fixed-top">
 
 	</nav>
 </header>
