@@ -3,6 +3,7 @@ body {
 	position: flex;
 	margin: 0;
 	padding: 0;
+	font-family: 'Ubuntu Condensed', sans-serif;
 }
 
 .home-page {
@@ -44,4 +45,24 @@ nav.navbar {
 
 .catchy-text {
 	color: white;
+	margin: 0;
+}
+
+.footer {
+	padding: 3rem;
+	background-color: black;
+}
+
+.info {
+	color: white;
+}
+
+.gold {
+	color: rgba(250, 175, 76, 1.0);
+}
+
+.lineRight {
+	border-right: 2px solid gray;
+	text-align: center;
+	padding: 0;
 }

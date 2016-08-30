@@ -17,8 +17,11 @@ require_once("php/partials/head-utils.php");
 			<div class="container">
 				<div class="row">
 					<div class="col-md-6 col-md-offset-3">
-						<div class="catchy animated fadeInUp">
+						<div class="catchy animated zoomIn">
 							<img src="images/lyra-logo.svg" alt="Lyra Logo" />
+							<h1 class="catchy-text">
+								Let's get your message in cyber-space!
+							</h1>
 						</div>
 					</div>
 				</div>
