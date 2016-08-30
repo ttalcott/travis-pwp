@@ -6,7 +6,14 @@ body {
 	font-family: 'Ubuntu Condensed', sans-serif;
 }
 
-.home-page {
+.navbar-default {
+	margin-bottom: 5rem;
+	border: none;
+	background: black;
+	height: auto;
+}
+
+.home {
 	background: url("../images/galaxy-background.jpg") no-repeat center;
 	background-attachment: fixed;
 	background-size: cover;
@@ -23,12 +30,7 @@ body {
 	flex: 1 0 auto;
 }
 
-nav.navbar {
-	margin-bottom: 5rem;
-	border: none;
-	background: transparent;
-	height: auto;
-}
+
 
 .logo {
 	height: 200px;
