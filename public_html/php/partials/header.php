@@ -12,11 +12,11 @@
 			</div>
 
 			<div class="collapse navbar-collapse" id="nav-collapse">
-				<ul class="nav navbar-nav">
-					<li></li>
-					<li>About LDS</li>
-					<li>Our Work</li>
-					<li>Contact</li>
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="/~ttalcott/travis-pwp/public_html/index.php"><i class="fa fa-home"></i></a></li>
+					<li><a href="/~ttalcott/travis-pwp/public_html/about">About Us</a></li>
+					<li><a href="/~ttalcott/travis-pwp/public_html/our-work">Our Work</a></li>
+					<li><a href="/~ttalcott/travis-pwp/public_html/contact">Contact</a></li>
 				</ul>
 			</div>
 		</div>
