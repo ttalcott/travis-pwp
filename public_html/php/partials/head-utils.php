@@ -32,10 +32,10 @@ $PREFIX = str_repeat("../", $DEPTH_DIFFERENCE);
 		<link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
 
 		<!-- animate.css -->
-		<link rel="stylesheet" href="css/animate.css" type="text/css">
+		<link rel="stylesheet" href="<?php echo $PREFIX; ?>css/animate.css" type="text/css">
 
 		<!--Custom CSS -->
-		<link rel="stylesheet" href="css/style.css" type="text/css">
+		<link rel="stylesheet" href="<?php echo $PREFIX; ?>css/style.css" type="text/css">
 
 		<!-- jQuery (required for Bootstap's JS plugins) -->
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>

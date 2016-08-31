@@ -8,8 +8,10 @@ body {
 
 .navbar-default {
 	margin-bottom: 5rem;
+	padding: 3rem;
+	background-color: black;
+	border-radius: 0;
 	border: none;
-	background: black;
 	height: auto;
 }
 
