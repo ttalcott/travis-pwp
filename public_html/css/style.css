@@ -14,7 +14,8 @@ body {
 	border-radius: 0;
 	border: none;
 	height: auto;
-	font-size: x-large;
+	font-size: large;
+	line-height: 5rem;
 }
 
 .navbar-default .navbar-nav>li>a {
@@ -24,6 +25,24 @@ body {
 .navbar-default .navbar-nav>li>a:hover {
 	color: rgba(18, 118, 173, 1.0);
 }
+
+@media only screen and (min-width: 768px) {
+	.navbar-default .navbar-nav>li>a:after {
+		content: '';
+		display: block;
+		margin: auto;
+		height: 2px;
+		width: 0px;
+		background: transparent;
+		transition: width .5s ease, background-color .5s ease;
+	}
+
+	.navbar-default .navbar-nav>li>a:hover:after {
+		width: 100%;
+		background: rgba(250, 175, 76, 1.0);
+	}
+}
+
 
 .fa-home {
 	color: rgba(250, 175, 76, 1.0);
@@ -56,9 +75,9 @@ body {
 }
 
 .catchy {
-	margin: 2rem 0;
+	margin: 5rem 0;
 	padding: 5rem;
-	background: rgba(0, 0, 0, 0.8);
+	background: rgba(0, 0, 0, 0.6);
 	border-radius: 1rem;
 }
 
