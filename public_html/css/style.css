@@ -63,8 +63,8 @@ body {
 }
 
 .navbar-brand>img {
-	height: 10rem;
-	width: 15rem;
+	height: 8rem;
+	width: 13rem;
 }
 
 
@@ -99,16 +99,14 @@ body {
 }
 
 .catchy {
-	margin: 5rem 0;
-	padding: 5rem;
-	background: rgba(0, 0, 0, 0.6);
-	border-radius: 1rem;
+	margin: 15rem 0;
 }
 
 .catchy-text {
 	text-align: center;
 	color: white;
 	margin: 0;
+	font-size: 80px;
 }
 
 .footer {
@@ -130,9 +128,7 @@ body {
 	padding: 0;
 }
 
-.others {
-	background: rgba(126, 172, 184, 1.0);
-}
+
 
 .jumbotron {
 	margin: 15rem 0;
