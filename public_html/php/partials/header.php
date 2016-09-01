@@ -12,7 +12,7 @@
 			</div>
 
 			<div class="collapse navbar-collapse" id="nav-collapse">
-				<ul class="nav navbar-nav navbar-left">
+				<ul class="nav navbar-nav navbar-right">
 					<li><a href="/~ttalcott/travis-pwp/public_html/index.php"><i class="fa fa-home"></i></a></li>
 					<li><a href="/~ttalcott/travis-pwp/public_html/about">About Us</a></li>
 					<li><a href="/~ttalcott/travis-pwp/public_html/our-work">Our Work</a></li>
