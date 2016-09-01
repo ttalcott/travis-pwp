@@ -26,7 +26,7 @@ $PREFIX = str_repeat("../", $DEPTH_DIFFERENCE);
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
 
 		<!-- Google Fonts -->
-		<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Ubuntu|Yatra+One" rel="stylesheet">
 
 		<!-- animate.css -->
 		<link rel="stylesheet" href="<?php echo $PREFIX; ?>css/animate.css" type="text/css">

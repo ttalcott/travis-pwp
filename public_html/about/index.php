@@ -10,11 +10,17 @@ $PAGE_TITLE = "About LDS";
 require_once(dirname(__DIR__) . "/php/partials/head-utils.php");
  ?>
 
-<body class="sfooter">
-	<div class="pic">
-		<div class="sfooter-content">
-			<?php require_once($PREFIX . "php/partials/header.php"); ?>
-		</div>
+<body class="sfooter others">
+	<div class="sfooter-content background2">
+		<?php require_once($PREFIX . "php/partials/header.php"); ?>
+
+
+			<main>
+				<div class="jumbotron">
+					<h1 class="catchy-text animated zoomIn">Who are we?</h1>
+				</div>
+			</main>
+
 	</div>
 </body>
 </html>
