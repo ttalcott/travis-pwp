@@ -13,8 +13,8 @@ body {
 .navbar-default {
 	font-family: 'Ubuntu', sans-serif;
 	margin-bottom: 5rem;
-	padding: 3rem;
-	background: transparent;
+	padding: 0 3rem 3rem 3rem;
+	background: black;
 	border-radius: 0;
 	border: none;
 	height: auto;
@@ -83,21 +83,22 @@ body {
 		width: 100%;
 		background: white;
 	}
+
+	.navbar-default .navbar-nav>li>a {
+		padding-top: 3rem;
+	}
 }
 
-.navbar-default .navbar-brand:hover {
-	color: rgba(250, 175, 76, 1.0);
-}
 
-.fa-home {
-	color: rgba(250, 175, 76, 1.0);
-	font-size: 2.5rem;
+.black {
+	background-color: black;
 }
 
 .home {
-	background: url("../images/custom-background3.svg") no-repeat center;
-	background-attachment: fixed;
-	background-size: cover;
+	/*background: url("../images/custom-background3.svg") no-repeat center;*/
+	/*background-attachment: fixed;*/
+	/*background-size: cover;*/
+	background-color: rgba(33, 33, 33, 1.0);
 
 }
 
@@ -111,7 +112,10 @@ body {
 	flex: 1 0 auto;
 }
 
-
+.logo-small {
+	height: 70px;
+	width: 140px;
+}
 
 .logo {
 	height: 200px;
@@ -151,7 +155,7 @@ body {
 }
 
 .others {
-	background-color: black;
+	background-color: white;
 }
 
 .jumbotron {

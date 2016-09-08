@@ -8,14 +8,14 @@
 					<span class="icon-bar middle-bar"></span>
 					<span class="icon-bar bottom-bar"></span>
 				</button>
-					<a class="navbar-brand" href="/~ttalcott/travis-pwp/public_html/index.php"><span class="gold">L</span>DS</a>
+					<a href="/~ttalcott/travis-pwp/public_html/index.php"><img src="<?php echo $PREFIX; ?>images/LDSBlack.svg" alt="lyra" class="logo-small"/></a>
 			</div>
 
 			<div class="collapse navbar-collapse" id="nav-collapse">
 				<ul class="nav navbar-nav navbar-right">
-					<li><a href="/~ttalcott/travis-pwp/public_html/about">ABOUT US</a></li>
-					<li><a href="/~ttalcott/travis-pwp/public_html/our-work">OUR WORK</a></li>
-					<li><a href="/~ttalcott/travis-pwp/public_html/contact">CONTACT</a></li>
+					<li><a href="/~ttalcott/travis-pwp/public_html/about">About Us</a></li>
+					<li><a href="/~ttalcott/travis-pwp/public_html/our-work">Our Work</a></li>
+					<li><a href="/~ttalcott/travis-pwp/public_html/contact">Get In Touch</a></li>
 				</ul>
 			</div>
 		</div>

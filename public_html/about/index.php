@@ -16,8 +16,10 @@ require_once(dirname(__DIR__) . "/php/partials/head-utils.php");
 
 
 			<main>
-				<div class="jumbotron">
-					<h1 class="catchy-text animated zoomIn">Who are we?</h1>
+				<div class="about">
+					<div class="jumbotron">
+						<h1 class="catchy-text animated zoomIn">Who are we?</h1>
+					</div>
 				</div>
 			</main>
 

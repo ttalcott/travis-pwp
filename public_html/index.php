@@ -19,7 +19,11 @@ require_once("php/partials/head-utils.php");
 				<div class="row">
 					<div class="col-md-6 col-md-offset-3">
 						<div class="catchy animated zoomIn">
-							<img src="images/logo-maybe.svg" alt="logo" />
+							<h1 class="gold">Lyra</h1>
+							<h2>Development Solutions</h2>
+						</div>
+						<div class="beginning-text animated ">
+
 						</div>
 					</div>
 				</div>

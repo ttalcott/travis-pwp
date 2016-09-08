@@ -18,7 +18,7 @@ require_once(dirname(__DIR__) . "/php/partials/head-utils.php");
 				<div class="row">
 					<div class="col-sm-6">
 
-						<form id="contact-form" class="" method="POST" action="php/mailer.php" novalidate>
+						<form id="contact-form" class="" method="POST" action="<?php echo $PREFIX; ?>php/mail.php" novalidate>
 							<div class="form-group">
 								<label for="name">Name</label>
 								<div class="input-group">
