@@ -2,3 +2,4 @@
 .DS_Store
 /vendor
 /.sync-config.cson
+**/php/mail-config.php

@@ -18,7 +18,7 @@ require_once(dirname(__DIR__) . "/php/partials/head-utils.php");
 				<div class="row">
 					<div class="col-sm-6">
 
-						<form id="contact-form" class="" action="">
+						<form id="contact-form" class="" method="POST">
 							<div class="form-group">
 								<label for="name">Name</label>
 								<div class="input-group">
@@ -56,7 +56,7 @@ require_once(dirname(__DIR__) . "/php/partials/head-utils.php");
 							</div>
 							<!-- google recaptcha -->
 							<div class="g-recaptcha" data-sitekey="6Le3sykTAAAAANVMQUAH4gv3MLo0qEwEV7doAAcr"></div>
-							
+
 							<button type="submit" class="btn btn-info">Submit</button>
 							<button type="reset" class="btn btn-default">Reset</button>
 						</form>
