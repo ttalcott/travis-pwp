@@ -18,7 +18,7 @@ require_once(dirname(__DIR__) . "/php/partials/head-utils.php");
 				<div class="row">
 					<div class="col-sm-6">
 
-						<form id="contact-form" class="" method="POST">
+						<form id="contact-form" class="" method="POST" action="php/mailer.php" novalidate>
 							<div class="form-group">
 								<label for="name">Name</label>
 								<div class="input-group">
@@ -60,7 +60,13 @@ require_once(dirname(__DIR__) . "/php/partials/head-utils.php");
 							<button type="submit" class="btn btn-info">Submit</button>
 							<button type="reset" class="btn btn-default">Reset</button>
 						</form>
+						<div class="row">
+							<div class="col-xs-6">
+								<div id="output-area">
 
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
