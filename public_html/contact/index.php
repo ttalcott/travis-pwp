@@ -54,6 +54,9 @@ require_once(dirname(__DIR__) . "/php/partials/head-utils.php");
 									<textarea name="message" rows="5" class="form-control" id="message" placeholder="Your message (2000 characters Max)"></textarea>
 								</div>
 							</div>
+							<!-- google recaptcha -->
+							<div class="g-recaptcha" data-sitekey="6Le3sykTAAAAANVMQUAH4gv3MLo0qEwEV7doAAcr"></div>
+							
 							<button type="submit" class="btn btn-info">Submit</button>
 							<button type="reset" class="btn btn-default">Reset</button>
 						</form>

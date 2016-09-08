@@ -47,6 +47,8 @@ $PREFIX = str_repeat("../", $DEPTH_DIFFERENCE);
 
 		<!-- waypoints.js -->
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.0/jquery.waypoints.js"></script>
+		<!-- google recaptcha -->
+		<script src='https://www.google.com/recaptcha/api.js'></script>
 
 		<!-- custom js -->
 		<script type="text/javascript" src="<?php echo $PREFIX; ?>js/custom-javascript.js"></script>
