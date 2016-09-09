@@ -24,20 +24,13 @@ body {
 */
 
 .navbar-default {
-	font-family: 'Poiret One', cursive;
 	margin-bottom: 5rem;
 	padding: 0 3rem 0 3rem;
 	background: black;
 	border-radius: 0;
 	border: none;
 	height: auto;
-	font-size: large;
 	line-height: 5rem;
-}
-
-.navbar-default .navbar-brand {
-	font-size: 2em;
-	color: #fff;
 }
 
 .navbar-toggle {
