@@ -2,16 +2,21 @@ html {
 	position: flex;
 	margin: 0;
 	padding: 0;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Poiret One', cursive;
 }
 
 body {
 	width: 100%;
 	padding-top: 70px;
+	font-family: 'Poiret One', cursive;
 }
 
+/*
+* navbar styles
+*/
+
 .navbar-default {
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Poiret One', cursive;
 	margin-bottom: 5rem;
 	padding: 0 3rem 3rem 3rem;
 	background: black;
@@ -62,6 +67,7 @@ body {
 
 .navbar-default .navbar-nav>li>a {
 	color: white;
+	font-size: large;
 }
 
 .navbar-default .navbar-nav>li>a:hover {
@@ -89,52 +95,14 @@ body {
 	}
 }
 
-
-.black {
-	background-color: black;
-}
-
-.home {
-	/*background: url("../images/custom-background3.svg") no-repeat center;*/
-	/*background-attachment: fixed;*/
-	/*background-size: cover;*/
-	background-color: rgba(33, 33, 33, 1.0);
-
-}
-
-.sfooter {
-	display: flex;
-	flex-direction: column;
-	min-height: 100vh;
-}
-
-.sfooter-content {
-	flex: 1 0 auto;
-}
-
 .logo-small {
 	height: 70px;
 	width: 140px;
 }
 
-.logo {
-	height: 200px;
-	width: 450px;
-	margin: 0;
-}
-
-.catchy {
-	margin: 15rem 0;
-	background:
-}
-
-.catchy-text {
-	text-align: center;
-	color: white;
-	margin: 0;
-	font-size: 80px;
-}
-
+/**********************************
+footer styles
+**********************************/
 .footer {
 	padding: 3rem;
 	background-color: black;
@@ -154,11 +122,56 @@ body {
 	padding: 0;
 }
 
+.sfooter {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+.sfooter-content {
+	flex: 1 0 auto;
+}
+
+.catchy {
+	margin: 15rem 0;
+	background:
+}
+
+.home {
+	/*background: url("../images/customBackground4.svg");
+	background-attachment: fixed;
+	background-size: cover;*/
+	/*background-color: rgba(14, 17, 17, 1.0);*/
+	background: -webkit-gradient(linear, 100% 50%, 25% 0%, from(rgba(33, 33, 33, 1.0)), to(#000000));
+
+  /* Safari 5.1, Chrome 10+ */
+  background: -webkit-linear-gradient(top, #000000, rgba(33, 33, 33, 1.0));
+
+  /* Firefox 3.6+ */
+  background: -moz-linear-gradient(top, #000000, rgba(33, 33, 33, 1.0);
+
+  /* IE 10 */
+  background: -ms-linear-gradient(top, #000000, rgba(33, 33, 33, 1.0);
+
+  /* Opera 11.10+ */
+  background: -o-linear-gradient(top, #000000, rgba(33, 33, 33, 1.0);
+}
+
+.intro-text {
+	color: #ffff;
+}
+
+@media only screen and (min-width: 768px) {
+	.intro-text {
+		font-size: 600px;
+	}
+}
+
 .others {
 	background-color: white;
 }
 
-.jumbotron {
+.about {
 	margin: 15rem 0;
 	background: black;
 	color: white;

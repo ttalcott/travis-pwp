@@ -3,7 +3,7 @@
 $CURRENT_DIR = __DIR__;
 
 // set page title
-$PAGE_TITLE = "LDS";
+$PAGE_TITLE = "Lyra Development Solutions";
 
 //load head-utils.php
 require_once("php/partials/head-utils.php");
@@ -17,10 +17,13 @@ require_once("php/partials/head-utils.php");
 
 			<div class="container">
 				<div class="row">
-					<div class="col-md-6 col-md-offset-3">
+					<div class="col-md-8 col-md-offset-3">
 						<div class="catchy animated zoomIn">
-							<h1 class="gold">Lyra</h1>
-							<h2>Development Solutions</h2>
+							<div>
+								<p class="intro-text">Lyra</p>
+								<p class="intro-text">Development</p>
+								<p class="intro-text">Solutions.</p>
+							</div>
 						</div>
 						<div class="beginning-text animated ">
 
