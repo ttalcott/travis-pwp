@@ -11,9 +11,23 @@ require_once(dirname(__DIR__) . "/php/partials/head-utils.php");
 ?>
 
 <body class="sfooter all-else">
-	<div class="sfooter-content background2">
+	<div class="sfooter-content">
 		<?php require_once($PREFIX . "php/partials/header.php"); ?>
 		<main>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8">
+						<div class="catchy-text jumbotron animated zoomIn">
+							<h1>Let's Work Together!</h1>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-8 about-section-1">
+					<p class="animated fadeIn">
+						Feel free to email us about any inquiry you have! Whether it's for pricing information, a quote, or if you just have questions about us let us know.
+					</p>
+				</div>
+			</div>
 			<div class="container form-wrap">
 				<div class="row">
 					<div class="col-sm-6">

@@ -11,6 +11,9 @@ body {
 	font-family: 'Poiret One', cursive;
 }
 
+/**********************************
+global styles
+**********************************/
 .fadeIn{
 	animation-delay: 1s;
 	animation-timing-function: ease-in;
@@ -19,9 +22,19 @@ body {
 	margin-top: 5rem;
 }
 
-/*
-* navbar styles
-*/
+.jumbotron {
+	background: transparent;
+	margin: 0;
+}
+
+.about-section-1 {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+/**********************************
+navbar styles
+**********************************/
 
 .navbar-default {
 	margin-bottom: 5rem;
@@ -103,6 +116,9 @@ body {
 	width: 160px;
 }
 
+/**********************************
+home specific styles
+**********************************/
 .catchy {
 	margin: 15rem 0;
 	color: white;
@@ -115,15 +131,23 @@ body {
 		color: white;
 	}
 }
-.jumbotron {
-	background: transparent;
-	margin: 0;
-}
 
-.about-section-1 {
-	font-size: 20px;
+.home-gold {
+	color: rgba(250, 175, 58, 1.0);
+	font-size: 70px;
 	font-weight: bold;
 }
+
+.catchy .welcome-text {
+	font-size: 65px;
+}
+
+.intro-text {
+	margin: 15rem 0;
+	color: white;
+	font-size: 40px;
+}
+
 /**********************************
 footer styles
 **********************************/
@@ -146,12 +170,6 @@ footer styles
 	color: white;
 }
 
-.home-gold {
-	color: rgba(250, 175, 58, 1.0);
-	font-size: 70px;
-	font-weight: bold;
-}
-
 .gold {
 	color: rgba(250, 175, 58, 1.0);
 }
@@ -172,17 +190,9 @@ footer styles
 	flex: 1 0 auto;
 }
 
-
-.catchy .welcome-text {
-	font-size: 65px;
-}
-
-.intro-text {
-	margin: 15rem 0;
-	color: white;
-	font-size: 40px;
-}
-
+/**********************************
+home background style
+**********************************/
 .home {
 	/*background: url("../images/customBackground4.svg");
 	background-attachment: fixed;
@@ -201,4 +211,6 @@ footer styles
 
   /* Opera 11.10+ */
   background: -o-linear-gradient(top, #000000, rgba(33, 33, 33, 1.0);
+
+	background-size: cover;
 }
