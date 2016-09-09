@@ -14,15 +14,15 @@ require_once("php/partials/head-utils.php");
 
 			<div class="container">
 				<div class="row">
-					<div class="col-md-4">
-						<div class="catchy animated zoomIn">
+					<div class="col-sm-4">
+						<div class="catchy">
 
 								<h1 class="welcome-text">
-									Lyra Development Solutions.
+									<span class="gold">L</span>yra <span class="gold">D</span>evelopment <span class="gold">S</span>olutions.
 								</h1>
 						</div>
 					</div>
-					<div class="col-md-8">
+					<div class="col-sm-8">
 						<div class="intro-text animated fadeIn" id="intro-text">
 							<p>
 								An Albuquerque based software development company committed to making your ideas come to life.

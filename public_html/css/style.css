@@ -101,11 +101,25 @@ body {
 	.navbar-default .navbar-nav>li>a {
 		padding-top: 3rem;
 	}
+
 }
 
 .logo-small {
-	height: 70px;
-	width: 140px;
+	height: 75px;
+	width: 150px;
+}
+
+.catchy {
+	margin: 15rem 0;
+	color: white;
+}
+
+@media only screen and (max-width: 768px) {
+	.catchy {
+		margin: 0;
+		padding: 0;
+		color: white;
+	}
 }
 .jumbotron {
 	background: transparent;
@@ -129,7 +143,9 @@ footer styles
 }
 
 .gold {
-	color: rgba(250, 175, 76, 1.0);
+	color: rgba(250, 175, 58, 1.0);
+	font-size: 70px;
+	font-weight: bold;
 }
 
 .lineRight {
@@ -148,10 +164,6 @@ footer styles
 	flex: 1 0 auto;
 }
 
-.catchy {
-	margin: 15rem 0;
-	color: white;
-}
 
 .catchy .welcome-text {
 	font-size: 65px;

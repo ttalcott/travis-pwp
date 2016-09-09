@@ -17,7 +17,7 @@ require_once(dirname(__DIR__) . "/php/partials/head-utils.php");
           <div class="row">
             <div class="col-md-6">
               <div class="catchy-text jumbotron">
-                <h1 class="animated zoomIn">Who are we?</h1>
+                <h1>Who are we?</h1>
               </div>
             </div>
           </div>
@@ -29,7 +29,7 @@ require_once(dirname(__DIR__) . "/php/partials/head-utils.php");
           <div class="row">
             <div class="col-md-6">
               <div class="catchy-text jumbotron">
-                <h1 class="animated zoomIn">Our Goal</h1>
+                <h1 >Our Goal</h1>
               </div>
             </div>
           </div>
@@ -41,7 +41,7 @@ require_once(dirname(__DIR__) . "/php/partials/head-utils.php");
           <div class="row">
             <div class="col-md-6">
               <div class="catchy-text jumbotron">
-                <h1 class="animated zoomIn">Our Promise</h1>
+                <h1>Our Promise</h1>
               </div>
             </div>
           </div>
@@ -50,6 +50,7 @@ require_once(dirname(__DIR__) . "/php/partials/head-utils.php");
               We promise to make your product exactly what you want it to be. From the early design stages to final deployment we will make sure all your needs and expectations are met.
             </p>
           </div>
+
 				</div>
 			</main>
 	</div>

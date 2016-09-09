@@ -1,8 +1,5 @@
-$(document).ready(function() {
-
-
-	$('#intro-text').show(2000);
-	});
-
-
-});
+// $(document).ready(function() {
+//
+//
+//
+// });
