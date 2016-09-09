@@ -14,6 +14,14 @@ body {
 /**********************************
 global styles
 **********************************/
+a {
+	color: rgba(250, 175, 58, 1.0);
+}
+
+a:hover {
+	color: white;
+}
+
 .fadeIn{
 	animation-delay: 1s;
 	animation-timing-function: ease-in;
@@ -149,7 +157,7 @@ navbar styles
 home specific styles
 **********************************/
 .catchy {
-	margin: 15rem 0;
+	margin: 15rem 0 0 0;
 	color: white;
 }
 
@@ -172,9 +180,9 @@ home specific styles
 }
 
 .intro-text {
-	margin: 15rem 0;
+	margin: 13rem 0 0 0;
 	color: white;
-	font-size: 40px;
+	font-size: 35px;
 }
 
 /**********************************

@@ -27,6 +27,21 @@ require_once("php/partials/head-utils.php");
 							<p>
 								A software development company committed to making your ideas come to life.
 							</p>
+							<a href="/~ttalcott/travis-pwp/public_html/about">
+								<p>
+									Learn about us.
+								</p>
+							</a>
+							<a href="/~ttalcott/travis-pwp/public_html/contact">
+								<p>
+									Get in touch with us.
+								</p>
+							</a>
+						</div>
+					</div>
+					<div class="col-sm-7">
+						<div class="intro-text animated fadeIn">
+
 						</div>
 					</div>
 				</div>
