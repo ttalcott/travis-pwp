@@ -86,5 +86,5 @@ require_once(dirname(__DIR__) . "/php/partials/head-utils.php");
 			</div>
 		</main>
 	</div>
-
+	<?php require_once($PREFIX . "php/partials/footer.php"); ?>
 </body>
