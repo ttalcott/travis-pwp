@@ -11,6 +11,14 @@ body {
 	font-family: 'Poiret One', cursive;
 }
 
+.fadeIn{
+	animation-delay: 1s;
+	animation-timing-function: ease-in;
+}
+.row {
+	margin-top: 5rem;
+}
+
 /*
 * navbar styles
 */
@@ -18,7 +26,7 @@ body {
 .navbar-default {
 	font-family: 'Poiret One', cursive;
 	margin-bottom: 5rem;
-	padding: 0 3rem 3rem 3rem;
+	padding: 0 3rem 0 3rem;
 	background: black;
 	border-radius: 0;
 	border: none;
@@ -99,7 +107,15 @@ body {
 	height: 70px;
 	width: 140px;
 }
+.jumbotron {
+	background: transparent;
+	margin: 0;
+}
 
+.about-section-1 {
+	font-size: 20px;
+	font-weight: bold;
+}
 /**********************************
 footer styles
 **********************************/
@@ -165,21 +181,4 @@ footer styles
 
   /* Opera 11.10+ */
   background: -o-linear-gradient(top, #000000, rgba(33, 33, 33, 1.0);
-}
-/*
-@media only screen and (min-width: 768px) {
-	.intro-text {
-
-	}
-}*/
-
-.about {
-	margin: 15rem 0;
-	background: black;
-	color: white;
-	padding-bottom: 10em;
-	text-shadow: 0px 15px 5px rgba(0,0,0,0.2);
-}
-.jumbotron {
-	background: transparent;
 }

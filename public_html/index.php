@@ -19,11 +19,11 @@ require_once("php/partials/head-utils.php");
 
 								<h1 class="welcome-text">
 									Lyra Development Solutions.
-
+								</h1>
 						</div>
 					</div>
 					<div class="col-md-8">
-						<div class="intro-text" id="intro-text">
+						<div class="intro-text animated fadeIn" id="intro-text">
 							<p>
 								An Albuquerque based software development company committed to making your ideas come to life.
 							</p>
