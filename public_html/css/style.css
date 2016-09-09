@@ -132,6 +132,16 @@ footer styles
 	background-color: black;
 }
 
+.footer-content-1 {
+	font-size: large;
+	text-align: center;
+}
+
+.footer-content-2 {
+	font-size: large;
+	text-align: center;
+}
+
 .info {
 	color: white;
 }
