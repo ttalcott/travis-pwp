@@ -10,7 +10,7 @@ $PAGE_TITLE = "Contact";
 require_once(dirname(__DIR__) . "/php/partials/head-utils.php");
 ?>
 
-<body class="sfooter others">
+<body class="sfooter all-else">
 	<div class="sfooter-content background2">
 		<?php require_once($PREFIX . "php/partials/header.php"); ?>
 		<main>

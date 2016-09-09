@@ -51,11 +51,11 @@ $PREFIX = str_repeat("../", $DEPTH_DIFFERENCE);
 		<!-- google recaptcha -->
 		<script src='https://www.google.com/recaptcha/api.js'></script>
 
-		<!-- custom js -->
-		<script type="text/javascript" src="<?php echo $PREFIX; ?>js/custom-javascript.js"></script>
-
 		<!-- form-validate -->
 		<script type="text/javascript" src="<?php echo $PREFIX; ?>js/form-validate.js"></script>
+
+		<!-- custom js -->
+		<script type="text/javascript" src="<?php echo $PREFIX ?>js/custom-javascript.js"></script>
 
 		<title><?php echo $PAGE_TITLE; ?></title>
 	</head>

@@ -1,3 +1,8 @@
 $(document).ready(function() {
-	$("div.catchy").fadeIn(1000);
+
+
+	$('#intro-text').show(2000);
+	});
+
+
 });

@@ -134,7 +134,17 @@ footer styles
 
 .catchy {
 	margin: 15rem 0;
-	background:
+	color: white;
+}
+
+.catchy .welcome-text {
+	font-size: 65px;
+}
+
+.intro-text {
+	margin: 15rem 0;
+	color: white;
+	font-size: 25px;
 }
 
 .home {
@@ -156,20 +166,12 @@ footer styles
   /* Opera 11.10+ */
   background: -o-linear-gradient(top, #000000, rgba(33, 33, 33, 1.0);
 }
-
-.intro-text {
-	color: #ffff;
-}
-
+/*
 @media only screen and (min-width: 768px) {
 	.intro-text {
-		font-size: 600px;
-	}
-}
 
-.others {
-	background-color: white;
-}
+	}
+}*/
 
 .about {
 	margin: 15rem 0;
@@ -177,5 +179,7 @@ footer styles
 	color: white;
 	padding-bottom: 10em;
 	text-shadow: 0px 15px 5px rgba(0,0,0,0.2);
-
+}
+.jumbotron {
+	background: transparent;
 }
