@@ -24,7 +24,7 @@ require_once(dirname(__DIR__) . "/php/partials/head-utils.php");
 				</div>
 				<div class="col-md-8 about-section-1">
 					<p class="animated fadeIn">
-						Feel free to email us about any inquiry you have! Whether it's for pricing information, a quote, or if you just have questions about us let us know.
+						Please email us with your contact information for a quote or an answer to a question you have about us. We will reply within one business day!
 					</p>
 				</div>
 			</div>
@@ -32,7 +32,7 @@ require_once(dirname(__DIR__) . "/php/partials/head-utils.php");
 				<div class="row">
 					<div class="col-sm-6">
 
-						<form id="contact-form" class="" method="POST" action="<?php echo $PREFIX; ?>php/mail.php" novalidate>
+						<form id="contact-form" class="animated fadeIn" method="POST" action="<?php echo $PREFIX; ?>php/mail.php" novalidate>
 							<div class="form-group">
 								<label for="name">Name</label>
 								<div class="input-group">
