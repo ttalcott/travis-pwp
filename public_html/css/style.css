@@ -36,14 +36,30 @@ global styles
 button styles
 **********************************/
 
-.btn .btn-info {
-	background-color: color: rgba(250, 175, 58, 1.0);
+.btn-info {
+	background-color: rgba(250, 175, 58, 1.0) !important;
+	margin-right: 4px;
+	border: none;
+	color: black;
 }
 
 .btn-default {
-
+	background-color: black !important;
+	border: none;
+	color: white;
 }
 
+.btn-default:hover {
+	color: rgba(250, 175, 58, 1.0);
+}
+
+.fa-send:before, .fa-paper-plane:before {
+	padding: 3px;
+}
+
+.fa-minus-circle:before {
+	padding: 3px;
+}
 
 /**********************************
 navbar styles
