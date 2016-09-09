@@ -14,18 +14,18 @@ require_once("php/partials/head-utils.php");
 
 			<div class="container">
 				<div class="row">
-					<div class="col-sm-4">
-						<div class="catchy">
+					<div class="col-sm-5">
+						<div class="catchy animated zoomIn">
 
 								<h1 class="welcome-text">
-									<span class="gold">L</span>yra <span class="gold">D</span>evelopment <span class="gold">S</span>olutions.
+									<span class="home-gold">L</span>yra <span class="home-gold">D</span>evelopment <span class="home-gold">S</span>olutions.
 								</h1>
 						</div>
 					</div>
-					<div class="col-sm-8">
-						<div class="intro-text animated fadeIn" id="intro-text">
+					<div class="col-sm-7">
+						<div class="intro-text animated fadeIn">
 							<p>
-								An Albuquerque based software development company committed to making your ideas come to life.
+								A software development company committed to making your ideas come to life.
 							</p>
 						</div>
 					</div>

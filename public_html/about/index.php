@@ -16,7 +16,7 @@ require_once(dirname(__DIR__) . "/php/partials/head-utils.php");
 				<div class="container">
           <div class="row">
             <div class="col-md-6">
-              <div class="catchy-text jumbotron">
+              <div class="catchy-text jumbotron animated zoomIn">
                 <h1>Who are we?</h1>
               </div>
             </div>
@@ -28,7 +28,7 @@ require_once(dirname(__DIR__) . "/php/partials/head-utils.php");
           </div>
           <div class="row">
             <div class="col-md-6">
-              <div class="catchy-text jumbotron">
+              <div class="catchy-text jumbotron animated zoomIn">
                 <h1 >Our Goal</h1>
               </div>
             </div>
@@ -40,7 +40,7 @@ require_once(dirname(__DIR__) . "/php/partials/head-utils.php");
           </div>
           <div class="row">
             <div class="col-md-6">
-              <div class="catchy-text jumbotron">
+              <div class="catchy-text jumbotron animated zoomIn">
                 <h1>Our Promise</h1>
               </div>
             </div>
