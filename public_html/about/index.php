@@ -41,13 +41,13 @@ require_once(dirname(__DIR__) . "/php/partials/head-utils.php");
           <div class="row">
             <div class="col-md-6">
               <div class="catchy-text jumbotron">
-                <h1 class="animated zoomIn">Our People</h1>
+                <h1 class="animated zoomIn">Our Promise</h1>
               </div>
             </div>
           </div>
           <div class="col-md-6 about-section-1">
             <p class="animated fadeIn">
-              Lyra Development Solutions is still in the development stages itself having only 2
+              We promise to make your product exactly what you want it to be. From the early design stages to final deployment we will make sure all your needs and expectations are met.
             </p>
           </div>
 				</div>
