@@ -20,7 +20,23 @@ a {
 
 a:hover {
 	color: white;
+	text-decoration: none;
 }
+
+/*.home-link>a:after {
+	ontent: '';
+	display: block;
+	margin: auto;
+	height: 2px;
+	width: 0px;
+	background: transparent;
+	transition: width .5s ease, background-color .5s ease;
+}
+
+.home-link>a:hover:after {
+	width: 100%;
+	background: white;
+}*/
 
 .fadeIn{
 	animation-delay: 1s;
