@@ -33,6 +33,19 @@ global styles
 }
 
 /**********************************
+button styles
+**********************************/
+
+.btn .btn-info {
+	background-color: color: rgba(250, 175, 58, 1.0);
+}
+
+.btn-default {
+
+}
+
+
+/**********************************
 navbar styles
 **********************************/
 
@@ -155,6 +168,7 @@ google recaptcha
 .g-recaptcha {
 	margin: 2rem;
 }
+
 
 /**********************************
 footer styles
