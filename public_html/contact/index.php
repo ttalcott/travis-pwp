@@ -69,7 +69,7 @@ require_once(dirname(__DIR__) . "/php/partials/head-utils.php");
 								</div>
 							</div>
 							<!-- google recaptcha -->
-							<div class="g-recaptcha" data-sitekey="6Le3sykTAAAAANVMQUAH4gv3MLo0qEwEV7doAAcr"></div>
+							<div class="g-recaptcha" data-sitekey="6LdIsykTAAAAANmyNDFxxor2wrqeSyUSF4vPL9KL"></div>
 
 							<button type="submit" class="btn btn-lg btn-info"><i class="fa fa-paper-plane" aria-hidden="true"></i>Send</button>
 							<button type="reset" class="btn btn-lg btn-default"><i class="fa fa-minus-circle" aria-hidden="true"></i>Reset</button>

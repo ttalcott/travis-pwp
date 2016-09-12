@@ -13,9 +13,16 @@ require_once(dirname(__DIR__) . "/php/partials/head-utils.php");
 <body class="sfooter all-else">
 	<div class="sfooter-content background2">
 			<main class="about-page">
+        <section class="about-background">
+          <div class="container">
+                <div class="jumbotron white">
+                  <h1>Discover Lyra Development Solutions.</h1>
+                </div>
+          </div>
+        </section>
 				<div class="container">
           <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-6 black-background">
               <div class="catchy-text jumbotron animated zoomIn">
                 <h1>Who are we?</h1>
               </div>

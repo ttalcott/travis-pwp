@@ -11,6 +11,15 @@ body {
 	font-family: 'Poiret One', cursive;
 }
 
+
+	.about-background {
+		display: flex;
+		min-height: 95vh;
+		background: url("../images/about-background3.png");
+		background-size: cover;
+	}
+
+
 /**********************************
 global styles
 **********************************/
@@ -23,20 +32,14 @@ a:hover {
 	text-decoration: none;
 }
 
-/*.home-link>a:after {
-	ontent: '';
-	display: block;
-	margin: auto;
-	height: 2px;
-	width: 0px;
-	background: transparent;
-	transition: width .5s ease, background-color .5s ease;
+h1 {
+	margin: 0;
 }
 
-.home-link>a:hover:after {
-	width: 100%;
-	background: white;
-}*/
+.white {
+	color: white;
+	background-color: rgba(14, 17, 17, 0.7);
+}
 
 .fadeIn{
 	animation-delay: 1s;
@@ -50,12 +53,16 @@ a:hover {
 	background: transparent;
 	margin: 0;
 }
+/*
+.black-background {
+	background-color: black;
+	color: white;
+}*/
 
 .about-section-1 {
 	font-size: 20px;
 	font-weight: bold;
 }
-
 /**********************************
 button styles
 **********************************/
