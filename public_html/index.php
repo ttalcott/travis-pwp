@@ -27,12 +27,12 @@ require_once("php/partials/head-utils.php");
 							<p>
 								A software development company committed to making your ideas come to life.
 							</p>
-							<a href="/~ttalcott/travis-pwp/public_html/about">
+							<a href="/public_html/about">
 								<p class="home-link">
 									Learn about us.
 								</p>
 							</a>
-							<a href="/~ttalcott/travis-pwp/public_html/contact">
+							<a href="/public_html/contact">
 								<p class="home-link">
 									Get in touch with us.
 								</p>

@@ -15,8 +15,10 @@ body {
 	.about-background {
 		display: flex;
 		min-height: 95vh;
-		background: url("../images/about-background3.png");
+		background: url("../images/custom-about2.svg") no-repeat center;
 		background-size: cover;
+		background-attachment: fixed;
+		align-items: center;
 	}
 
 
@@ -173,7 +175,6 @@ navbar styles
 
 .logo-small {
 	height: 80px;
-	width: 160px;
 }
 
 /**********************************

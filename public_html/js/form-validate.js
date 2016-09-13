@@ -65,7 +65,7 @@ $(document).ready(function(){
             $("#contact-form")[0].reset();
           }
         }
-      })
+      });
     }
 
   });/* end validate function */
