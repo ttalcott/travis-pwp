@@ -15,7 +15,7 @@ require_once(dirname(__DIR__) . "/php/partials/head-utils.php");
 			<main class="about-page">
         <section class="about-background">
           <div class="container">
-                <div class="jumbotron white">
+                <div id="about-black" class="jumbotron white">
                   <h1>Discover Lyra Development Solutions.</h1>
                 </div>
           </div>

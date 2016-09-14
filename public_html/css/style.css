@@ -11,13 +11,16 @@ body {
 	font-family: 'Poiret One', cursive;
 }
 
+	#about-black {
+		background-color: rgba(14, 17, 17, 0.8);
+	}
+
 
 	.about-background {
 		display: flex;
 		min-height: 95vh;
 		background: url("../images/custom-about2.svg") no-repeat center;
 		background-size: cover;
-		background-attachment: fixed;
 		align-items: center;
 	}
 
