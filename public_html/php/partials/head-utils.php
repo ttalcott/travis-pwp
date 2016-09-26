@@ -18,8 +18,10 @@ $PREFIX = str_repeat("../", $DEPTH_DIFFERENCE);
 		<meta charset="utf-8" />
 		<meta http-equiv="X-UA-COMPATIBLE" content="IE=edge"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<meta name="google-site-verification" content="V8iSDHljV0tj8KSoBPef4OErw60IOb6TefArg7vkP8E" />
 
 		<!-- Latest compiled and minified CSS -->
+		<link rel="icon" type="image/xicon" href="<?php echo $PREFIX; ?>images/favicon.png">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
 		<!-- FontAwesome -->
