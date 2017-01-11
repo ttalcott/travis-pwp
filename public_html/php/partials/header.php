@@ -8,7 +8,7 @@
 					<span class="icon-bar middle-bar"></span>
 					<span class="icon-bar bottom-bar"></span>
 				</button>
-					<a href="/"><img src="<?php echo $PREFIX; ?>images/lds-final2.svg" alt="lyra" class="logo-small"/></a>
+				<a href="/"><img src="<?php echo $PREFIX; ?>images/lds-final2.svg" alt="lyra" class="logo-small"/></a>
 			</div>
 
 			<div class="collapse navbar-collapse" id="nav-collapse">

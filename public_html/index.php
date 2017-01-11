@@ -8,8 +8,36 @@ $PAGE_TITLE = "Lyra Development Solutions";
 //load head-utils.php
 require_once("php/partials/head-utils.php");
 ?>
-<body class="sfooter home">
-	<?php require_once("php/partials/header.php"); ?>
+
+<!-- Construction theme -->
+
+<body>
+	<div class="container-fluid construction">
+		<section>
+			<div class="" id="stars">
+
+			</div>
+			<div class="" id="stars2">
+
+			</div>
+			<div class="" id="stars3">
+
+			</div>
+		</section>
+		<section class="construction-section star-background">
+			<div class="container">
+				<div class="row">
+					<img src="images/lds-final2.svg" alt="Lyra Development Solutions" class="large-logo">
+					<h1 class="margin-top">I apologize but our site is currently undergoing maintenance!</h1>
+					<h3>Please send an email to <span class="gold">info@lyradevelopment.com</span> or call <span class="gold">(505) 717-5401</span> for more information.</h3>
+				</div>
+			</div>
+		</section>
+	</div>
+</body>
+
+<!-- <body class="sfooter home">
+
 	<div class="sfooter-content">
 
 			<div class="container">
@@ -43,5 +71,5 @@ require_once("php/partials/head-utils.php");
 			</div>
 		</div>
 	</div>
-</body>
+</body> -->
 </html>

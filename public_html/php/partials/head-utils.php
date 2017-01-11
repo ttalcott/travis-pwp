@@ -15,6 +15,8 @@ $PREFIX = str_repeat("../", $DEPTH_DIFFERENCE);
 
 <html lang="en" >
 	<head>
+		<meta name="keywords" content="Lyra Development, Albuquerque, New Mexico, Albuquerque web development, software development, Albuquerque SEO, search engine optomization" />
+		<meta name="description" content="Lyra Development Solutions is a software development company located in Albuquerque, New Mexico.">
 		<meta charset="utf-8" />
 		<meta http-equiv="X-UA-COMPATIBLE" content="IE=edge"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -34,6 +36,7 @@ $PREFIX = str_repeat("../", $DEPTH_DIFFERENCE);
 		<link rel="stylesheet" href="<?php echo $PREFIX; ?>css/animate.css" type="text/css">
 
 		<!--Custom CSS -->
+		<link rel="stylesheet" href="<?php echo $PREFIX; ?>sass/style.css" type="text/css">
 		<link rel="stylesheet" href="<?php echo $PREFIX; ?>css/style.css" type="text/css">
 
 		<!-- jQuery (required for Bootstap's JS plugins) -->
