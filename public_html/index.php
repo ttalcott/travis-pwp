@@ -3,7 +3,7 @@
 $CURRENT_DIR = __DIR__;
 
 // set page title
-$PAGE_TITLE = "Lyra Development Solutions";
+$PAGE_TITLE = "Lyra Development Solutions - Software Development in Albuquerque, New Mexico";
 
 //load head-utils.php
 require_once("php/partials/head-utils.php");

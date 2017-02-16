@@ -9,9 +9,9 @@ $PAGE_TITLE = "About LDS";
 //load HTML head tag
 require_once(dirname(__DIR__) . "/php/partials/head-utils.php");
  ?>
-<?php require_once($PREFIX . "php/partials/header.php"); ?>
 <body class="sfooter all-else">
 	<div class="sfooter-content background2">
+    <?php require_once($PREFIX . "php/partials/header.php"); ?>
 			<main class="about-page">
         <section class="about-background">
           <div class="container">

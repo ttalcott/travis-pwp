@@ -4,29 +4,34 @@
 $CURRENT_DIR = __DIR__;
 
 //set page name
-$PAGE_TITLE = "Lyra Development Solutions";
+$PAGE_TITLE = "Lyra Development Solutions | Software Development in Albuquerque, New Mexico";
 
 //load HTML head tag
 require_once(dirname(__DIR__) . "/php/partials/head-utils.php");
 ?>
 <body class="sfooter">
 	<div class="sfooter-content">
-		<?php require_once($PREFIX . "php/partials/header.php"); ?>
 
+		<div class="splash">
+			<?php require_once($PREFIX . "php/partials/header.php"); ?>
+			<div class="container-fluid">
+				<div class="row">
+					<div class="home-title">
+						<h1 class="center large-white playfair-display animated fadeIn">Lyra Development Solutions</h1>
+						<h2 class="center raleway sub-title animated fadeIn">Custom Software - Your potential, Our passion</h2>
+					</div>
+				</div>
+			</div>
+		</div>
 		<main>
 			<div class="container-fluid">
 				<div class="row">
-					<section class="star-background">
-						<div class="" id="stars">
+					<!-- <section class="splash">
 
+						<div class="center">
+							<h1 class="asap large-white">Lyra Development Solutions</h1>
 						</div>
-						<div class="" id="stars2">
-
-						</div>
-						<div class="" id="stars3">
-
-						</div>
-					</section>
+					</section> -->
 				</div>
 			</div>
 

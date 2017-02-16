@@ -2,12 +2,13 @@ html {
 	position: flex;
 	margin: 0;
 	padding: 0;
-	font-family: 'Poiret One', cursive;
+	font-family: 'Raleway', sans-serif;
 }
 
 body {
 	width: 100%;
-	font-family: 'Poiret One', cursive;
+	font-family: 'Raleway', sans-serif;
+	padding: 0 !important;
 }
 
 	#about-black {
@@ -78,19 +79,30 @@ h1 {
 	margin-top: 5rem;
 }
 
-.jumbotron {
-	background: transparent;
-	margin: 0;
-}
-/*
-.black-background {
-	background-color: black;
-	color: white;
-}*/
-
 .about-section-1 {
 	font-size: 20px;
 	font-weight: bold;
+}
+
+.playfair-display {
+	font-family: 'Playfair Display', serif;
+}
+
+.raleway {
+	font-family: 'Raleway' sans-serif;
+}
+
+.sub-title {
+	color: white;
+	font-size: 52px;
+}
+
+.fade-delay {
+	animation-delay: 2s;
+}
+
+.fade-delay-long {
+	animation-delay: 3s;
 }
 /**********************************
 button styles
@@ -128,12 +140,13 @@ navbar styles
 .navbar-default {
 	margin-bottom: 5rem;
 	padding: 0 3rem 0 3rem;
-	background: black;
+	background: transparent;
 	border-radius: 0;
 	border: none;
 	height: auto;
 	line-height: 5rem;
-  box-shadow: 0 0 10px rgba(0,0,0,0.6);
+	font-family: 'Raleway', sans-serif;
+  /*box-shadow: 0 0 10px rgba(0,0,0,0.6);*/
 }
 
 .navbar-toggle {
@@ -170,8 +183,9 @@ navbar styles
 }
 
 .navbar-default .navbar-nav>li>a {
+	font-family: 'Raleway', sans-serif;
 	color: white;
-	font-size: large;
+	font-size: xx-large;
 }
 
 .navbar-default .navbar-nav>li>a:hover {
@@ -195,7 +209,7 @@ navbar styles
 	}
 
 	.navbar-default .navbar-nav>li>a {
-		padding-top: 3rem;
+		padding-top: 4rem;
 	}
 
 }
@@ -204,13 +218,45 @@ navbar styles
 	height: 80px;
 }
 
+.home-logo {
+	height: 100px;
+	margin: 5px 0 5px 0;
+}
+
 /**********************************
 home specific styles
 **********************************/
 
 .star-background {
-  height: 90vh;
-  background: black;
+	background-size: cover;
+	height: 70vh;
+	position: fixed;
+	width: 100%;
+	background: black;
+}
+
+.splash {
+	background: url("../images/purple-background.svg") no-repeat center center fixed;
+	background-size: cover;
+	height: 100vh;
+}
+
+.rubik {
+	font-family: 'Rubik', sans-serif;
+}
+
+.asap {
+	font-family: 'Asap', sans-serif;
+}
+
+.center {
+	text-align: center;
+	margin-top: 25px;
+}
+
+.large-white {
+	color: white;
+	font-size: 72px;
 }
 
 
@@ -241,6 +287,10 @@ home specific styles
 	margin: 13rem 0 0 0;
 	color: white;
 	font-size: 35px;
+}
+
+.home-title {
+	padding-top: 190px;
 }
 
 /**********************************
